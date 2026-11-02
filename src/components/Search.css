@@ -1,0 +1,32 @@
+﻿﻿.search {
+	margin: 45px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.search input {
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	border: 0px;
+	color: #555;
+}
+
+	.search input:focus {
+		outline: none;
+		border-bottom: 1px solid gray;
+	}
+
+	.search input:hover {
+		font-size: 26px;
+	}
+	.search > button{
+		background-color: /*rgb(0,91,151)*/ white;
+		color:white;
+		width:50px;
+		height:32px;
+		font-size: 32px;
+		border:none;
+		/*border-radius:8px;*/
+	}
